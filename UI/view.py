@@ -14,6 +14,7 @@ class View:
         self.page.title = "Lab06"
         self.page.horizontal_alignment = "center"
         self.page.theme_mode = ft.ThemeMode.DARK
+        self.page.scroll = ft.ScrollMode.ADAPTIVE
 
         # Alert
         self.alert = AlertManager(page)

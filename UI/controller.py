@@ -69,7 +69,7 @@ class Controller:
 
         # Controllo se la lista è vuota
         if not lista_auto_oggetti:
-            self._view.lista_auto_ricerca.append(
+            self._view.lista_auto_ricerca.controls.append(
                 ft.Text(f"Nessuna automobile trovata con il modello: {modello_da_cercare}")
             )
         else:
